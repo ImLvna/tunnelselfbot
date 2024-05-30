@@ -3,11 +3,10 @@
   "description": "Starter template for luna's projects",
   "homepage": "https://github.com/imlvna/template",
   "main": "dist/index.js",
-  "type": "module",
   "engines": {
     "node": ">=21.5.0"
   },
-  "packageManager": "pnpm@9.0.1",
+  "packageManager": "pnpm@9.0.6",
   "scripts": {
     "build": "node build.mjs",
     "start": "node dist/index.js",
@@ -28,5 +27,9 @@
     "prettier-eslint": "^16.3.0",
     "typescript": "^5.3.3",
     "typescript-eslint": "^7.8.0"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.1.4",
+    "dotenv": "^16.4.5"
   }
 }
